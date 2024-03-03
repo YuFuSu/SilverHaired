@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@color/main_color"
+        android:id="@+id/linearlayout_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <ImageView
+            android:id="@+id/imageview_back"
+            android:layout_marginStart="12dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp">
+        </ImageView>
+
+        <TextView
+            android:layout_toRightOf="@+id/imageview_back"
+            android:layout_centerVertical="true"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_marginStart="5dp"
+            android:text="提醒"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:background="@drawable/report_bg"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textview_time1"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:text="上午 07:45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/textview_content1"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageview_edit1"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:layout_toLeftOf="@+id/switch1"
+                android:src="@drawable/edit"></ImageView>
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_marginEnd="12dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Switch>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:background="@drawable/report_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textview_time2"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:text="上午 07:45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/textview_content2"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <ImageView
+                android:layout_toLeftOf="@+id/switch2"
+                android:id="@+id/imageview_edit2"
+                android:layout_marginEnd="12dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/edit"
+                android:layout_width="24dp"
+                android:layout_height="24dp">
+            </ImageView>
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_marginEnd="12dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Switch>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:background="@drawable/report_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textview_time3"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:text="上午 07:45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/textview_content3"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <ImageView
+                android:layout_toLeftOf="@+id/switch3"
+                android:id="@+id/imageview_edit3"
+                android:layout_marginEnd="12dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/edit"
+                android:layout_width="24dp"
+                android:layout_height="24dp">
+            </ImageView>
+
+            <Switch
+                android:id="@+id/switch3"
+                android:layout_marginEnd="12dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Switch>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:background="@drawable/report_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textview_time4"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:text="上午 07:45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/textview_content4"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <ImageView
+                android:layout_toLeftOf="@+id/switch4"
+                android:id="@+id/imageview_edit4"
+                android:layout_marginEnd="12dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/edit"
+                android:layout_width="24dp"
+                android:layout_height="24dp">
+            </ImageView>
+
+            <Switch
+                android:id="@+id/switch4"
+                android:layout_marginEnd="12dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Switch>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:background="@drawable/report_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textview_time5"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:text="上午 07:45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/textview_content5"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <ImageView
+                android:layout_toLeftOf="@+id/switch5"
+                android:id="@+id/imageview_edit5"
+                android:layout_marginEnd="12dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/edit"
+                android:layout_width="24dp"
+                android:layout_height="24dp">
+            </ImageView>
+
+            <Switch
+                android:id="@+id/switch5"
+                android:layout_marginEnd="12dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Switch>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:background="@drawable/report_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textview_time6"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:text="上午 07:45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/textview_content6"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="12dp"
+                android:textColor="@color/black"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageview_edit6"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:layout_toLeftOf="@+id/switch6"
+                android:src="@drawable/edit"></ImageView>
+
+            <Switch
+                android:id="@+id/switch6"
+                android:layout_marginEnd="12dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Switch>
+
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </View>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/exercise_activity_layout.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/exercise_detail_activity_layout.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/exercise_priview_activity_layout.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/exercise_report_adapter_header_layout.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/exercise_report_adapter_layout.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/exercise_report_layout.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/exericse_adapter_layout.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/forget_password_layout.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/menu_activity_layout.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/menu_adapter_layout.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/menu_detail_activity_layout.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/menu_detail_adapter_layout.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/new_info_activity_layout.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/register_layout.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/remind_activity_layout.xml" value="0.33" />
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/remind_dialog_layout.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/report_activity_layout.xml" value="0.21467391304347827" />
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/report_adapter_header_layout.xml" value="0.33" />
+        <entry key="..\:/Users/User/Desktop/SilverHaired/app/src/main/res/layout/setting_activity_layout.xml" value="0.3302083333333333" />
+        <entry key="app/src/main/res/drawable-v24/button_press.xml" value="0.353125" />
+        <entry key="app/src/main/res/drawable-v24/button_release.xml" value="0.353125" />
+        <entry key="app/src/main/res/drawable-v24/report_bg.xml" value="0.353125" />
+        <entry key="app/src/main/res/drawable-v24/selector_list_login_clear.xml" value="0.353125" />
+        <entry key="app/src/main/res/drawable-v24/selector_login_button.xml" value="0.353125" />
+        <entry key="app/src/main/res/drawable/arrow_back.xml" value="0.353125" />
+        <entry key="app/src/main/res/drawable/bg_border_g_b.xml" value="0.3425925925925926" />
+        <entry key="app/src/main/res/drawable/cursor.xml" value="0.18333333333333332" />
+        <entry key="app/src/main/res/drawable/progress_bar_style.xml" value="0.12962962962962962" />
+        <entry key="app/src/main/res/drawable/selector_view_password_off.xml" value="0.18333333333333332" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/exercise_activity_layout.xml" value="0.33106884057971014" />
+        <entry key="app/src/main/res/layout/exercise_detail_activity_layout.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/exercise_priview_activity_layout.xml" value="0.3328125" />
+        <entry key="app/src/main/res/layout/exercise_report_adapter_header_layout.xml" value="0.2296195652173913" />
+        <entry key="app/src/main/res/layout/exercise_report_adapter_layout.xml" value="0.2296195652173913" />
+        <entry key="app/src/main/res/layout/exercise_report_layout.xml" value="0.13728470111448834" />
+        <entry key="app/src/main/res/layout/forget_password_layout.xml" value="0.2296195652173913" />
+        <entry key="app/src/main/res/layout/login_layout.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/menu_activity_layout.xml" value="0.3328125" />
+        <entry key="app/src/main/res/layout/menu_adapter_layout.xml" value="0.1612008072653885" />
+        <entry key="app/src/main/res/layout/menu_detail_activity_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/menu_detail_adapter_layout.xml" value="0.3171875" />
+        <entry key="app/src/main/res/layout/new_info_activity_layout.xml" value="0.3328125" />
+        <entry key="app/src/main/res/layout/register_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/remind_activity_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/remind_adapter_layout.xml" value="0.32653985507246375" />
+        <entry key="app/src/main/res/layout/remind_dialog_layout.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/report_activity_layout.xml" value="0.3171875" />
+        <entry key="app/src/main/res/layout/report_adapter_header_layout.xml" value="0.3328125" />
+        <entry key="app/src/main/res/layout/report_adapter_layout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/setting_activity_layout.xml" value="0.3171875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

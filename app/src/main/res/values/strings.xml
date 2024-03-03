@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SilverHaired</string>
+    <string name="Com_hint_email">電子郵件</string>
+    <string name="Com_login">登入</string>
+    <string name="Com_logout">登出</string>
+
+    <string name="Com_hint_password">密碼</string>
+    <string name="Com_hint_password_confirm">確認密碼</string>
+
+</resources>

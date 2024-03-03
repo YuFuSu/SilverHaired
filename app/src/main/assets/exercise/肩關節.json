@@ -1,0 +1,10 @@
+{
+  "name": "肩關節運動",
+  "exercise_detail": [
+    {
+      "suggest": "肩關節上舉20下 肩關節下舉20下",
+      "exercise_name": "肩關節運動",
+      "video_path": "<iframe frameborder=0 allowfullscreen width=100% height=100% src=\"https://www.youtube.com/embed/dlswRQaAjdU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    }
+  ]
+}

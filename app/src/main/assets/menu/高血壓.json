@@ -1,0 +1,11 @@
+{
+  "name": "高血壓",
+  "suggest": "清淡",
+  "menu_detail": [
+    {
+      "food_name": "菜",
+      "image_path": "菜.jpg",
+      "calorie": "2100"
+    }
+  ]
+}

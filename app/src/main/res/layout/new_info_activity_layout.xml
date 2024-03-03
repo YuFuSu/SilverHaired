@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/main_color"
+        android:id="@+id/linearlayout_actionbar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <ImageView
+            android:id="@+id/imageview_back"
+            android:layout_marginStart="12dp"
+            android:layout_gravity="center"
+            android:src="@drawable/arrow_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp">
+        </ImageView>
+
+        <TextView
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_marginStart="5dp"
+            android:text="新增資訊"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_height"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/linearlayout_actionbar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edittext_height"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="身高:"
+            android:inputType="number"
+             />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout_weight"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/linearlayout_height"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edittext_weight"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="體重:"
+            android:inputType="number"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_blood_pressure"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/linearlayout_weight"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edittext_blood_pressure"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="血壓:"
+            android:inputType="number"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="85dp"
+        android:id="@+id/button_add"
+        android:background="@drawable/selector_login_button"
+        android:layout_below="@+id/linearlayout_blood_pressure"
+        android:layout_marginStart="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新增"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

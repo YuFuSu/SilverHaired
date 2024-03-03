@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#00ffffff"
+    android:id="@+id/re"
+    style="@android:style/Theme.Translucent.NoTitleBar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        style="@android:style/Theme.Translucent.NoTitleBar"
+        android:id="@+id/linearLayout_outside"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.3"
+        android:background="#00606060"
+        />
+
+    <LinearLayout
+        style="@android:style/Theme.Translucent.NoTitleBar"
+        android:background="@drawable/bg_border_g_b"
+        android:layout_width="320dp"
+        android:layout_height="555dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/login_button_press"
+            android:layout_gravity="center|left"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="24dp"
+            android:text="新增提醒"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_border_white_g_b"
+            android:layout_width="271dp"
+            android:layout_height="434dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TimePicker
+                    android:id="@+id/timePicker"
+                    android:timePickerMode="spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+
+            </FrameLayout>
+
+            <EditText
+                android:hint="提醒事項"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/edittext_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <Button
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:id="@+id/button_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/selector_login_button"
+                android:text="新增"
+                android:textColor="@color/white">
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

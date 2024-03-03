@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "831040137206",
+    "project_id": "silverhaired-bfd95",
+    "storage_bucket": "silverhaired-bfd95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831040137206:android:35a782b0b74377f49f09d7",
+        "android_client_info": {
+          "package_name": "com.silverhaired.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831040137206-rve910mv1rarcqevig9kdomqm37evm4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfdqydM4zW8wDRHzmB3AuZUUo9oKO1uTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831040137206-rve910mv1rarcqevig9kdomqm37evm4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
